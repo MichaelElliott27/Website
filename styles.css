@@ -1,0 +1,50 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:#d33d3d;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+body{
+    margin: 0px;
+    /* modify background color here*/
+    background-color:#fcaedb;
+    
+}
+a:link{
+    color: rgb(230, 117, 160);
+}
+a:visited{
+    color: skyblue;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+    font-family: sans-serif;
+    
+}
+.grid img{ 
+    border: 10px solid #060036;
+    border-radius: 50px;
+}
+.dessert {
+    
+    border-radius: 20px;
+    background-color: rgb(0, 255, 234);
+    padding: 40px;
+    margin: 10px;
+    width:310px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100px;
+    font-style: unset;
+    
+}
+
+.dessert:hover{
+    transform: scale(1.2);
+}
